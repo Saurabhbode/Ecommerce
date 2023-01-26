@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+.logo{
+    font-size: 1.9rem;
+    color: skyblue;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;  
+    color: black;
+}
+li{
+    padding-left: 1.5rem;
+ 
+}
+
+.searchbar input{
+    width: 30rem;
+    border-right: 0;
+    /* flex: 1; */
+}
+.searchbar button{
+    border-left: 0;
+}
